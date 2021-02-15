@@ -1,146 +1,68 @@
+@font-face {
+    font-family: "Cormorant Medium Italic";
+    src: url("./assets/Cormorant-MediumItalic.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Cormorant Regular";
+    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+}
+
 body {
     margin: 0 auto;
-    background-color: rgb(211, 194, 162);
-    font-family: 'Cantata One', serif;
+    background-color: rgba(43, 29, 13, 1);
 }
 
-/* .background img {
-    transform: rotate(180deg);
-    opacity: 0.5;
-    margin: 0 auto;
+#rectangle {
+    height: 226pt;
     width: 100%;
-    height: 100%;
-} */
+    background-color: rgba(79, 68, 56, 1);
+    box-shadow: 0px 250px 80px black;
+    z-index: 1;
+}
 
 h1 {
-    font-size: 5rem;
-    color: rgba(255, 255, 255, 0.829);
+    font-family: "Cormorant Medium Italic";
+    font-style: italic;
+    position: absolute;
+    font-size: 36pt;
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 1px 3px rgba(43, 29, 13, 1), 5px 5px 10px rgba(43, 29, 13, 1);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
+    margin: 14rem auto auto 56rem;
+    letter-spacing: 10pt;
 }
 
-.gallery {
-    margin: 7rem auto;
-    align-items: center;
-    justify-content: center;
-    max-width: 80rem;
+.texts {
+    font-family: "Cormorant Regular";
+    display: flex;
+    margin: 11rem 14rem auto 14rem;
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 1px 30px rgba(255, 254, 251, 1), 5px 5px 30px rgba(255, 254, 251, 1);
+    z-index: 2;
 }
 
-.first {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 6rem;
-}
-
-.second {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 6rem;
-}
-
-.third {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 6rem;
-}
-
-img {
-    max-width: 35rem;
-    min-width: 20rem;
-    display: flex;
-    align-items: left;
-    margin: 0;
+ul {
+    font-size: 24pt;
+    list-style: none;
+    line-height: 65pt;
+    margin: 0 auto;
 }
 
 li {
-    font-size: 1rem;
     display: flex;
-    align-items: left;
-    justify-content: left;
-    line-height: 2rem;
-    margin-left: 2rem;
-}
-
-h2 {
-    font-size: 3rem;
-    margin: 0 auto 1rem;
-    line-height: 3.5rem;
-}
-
-.third h2 {
-    font-size: 3rem;
-    margin: 0;
-}
-
-h3 {
-    font-size: 2rem;
 }
 
 p {
-    font-size: 1rem;
-    max-width: 30rem;
-    line-height: 2rem;
+    font-size: 16pt;
+    font-weight: medium;
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 25rem;
+    line-height: 3rem;
 }
 
 @media only screen and (max-width: 50rem) {
-    h1 {
-        font-size: 1.5rem;
-        margin-top: 2rem auto;
-    }
 
-    .gallery {
-        margin: 3rem auto;
-    }
-
-    .first {
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
-    
-    .second {
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
-    
-    .third {
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
-
-    img {
-        width: 20rem;
-        align-items: center;
-        margin: auto;
-    }
-
-    li {
-        font-size: 0.7rem;
-        align-items: left;
-        justify-content: left;
-        max-width: 19rem;
-        line-height: 1rem;
-        margin: 0;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-
-    .third h2 {
-        font-size: 1.5rem;
-        margin: 0;
-    }
-    
-    h3 {
-        font-size: 1rem;
-    }
-    
-    p {
-        font-size: 0.7rem;
-        max-width: 30rem;
-        line-height: 1rem;
-    }
 }
