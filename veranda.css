@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Cormorant Regular";
+    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+}
+
+body {
+    margin: 0 auto;
+    background-color: green;
+}
+
+.floor {
+    height: 379pt;
+    width: 100%;
+    background-color: rgba(79, 68, 56, 1);
+    z-index: 1;
+    align-items: bottom;
+}
+
+nav {
+    position: absolute;
+    font-family: "Cormorant Regular";
+    font-size: 18pt;
+    display: flex;
+    margin-top: 47rem;
+    align-items: bottom;
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 1px 10px rgba(255, 254, 251, 1), 5px 5px 10px rgba(255, 254, 251, 1);
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    line-height: 30pt;
+}
+
+a {
+    color: rgba(255, 254, 251, 1);
+}
+
+p {
+    color: rgba(43, 29, 13, 1);
+    font-size: 16pt;
+    font-weight: medium;
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 25rem;
+    line-height: 3rem;
+}
+
+@media only screen and (max-width: 50rem) {
+
+}

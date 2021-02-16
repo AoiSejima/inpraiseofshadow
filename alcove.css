@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Cormorant Regular";
+    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Cormorant Medium";
+    src: url("./assets/Cormorant-Medium.woff2") format("woff2"); 
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgba(192, 166, 136, 1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+nav {
+    position: absolute;
+    font-family: "Cormorant Regular";
+    font-size: 18pt;
+    display: flex;
+    margin-top: 38rem;
+    align-items: bottom;
+    color: rgba(43, 29, 13, 1);
+    text-shadow: 1px 1px 10px rgba(43, 29, 13, 1), 5px 5px 10px rgba(43, 29, 13, 1);
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    line-height: 30pt;
+}
+
+a {
+    color: rgba(43, 29, 13, 1);
+}
+  
+p {
+    font-family: "Cormorant Medium";
+    font-size: 16pt;
+    color: rgba(239, 222, 202, 0.7);
+    text-shadow: 1px 1px 10px rgba(43, 29, 13, 0.8), 5px 5px 10px rgba(43, 29, 13, 0.8);
+    line-height: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+    transition: all 1s ease-in-out;
+}
+  
+#holderion {
+    width: 60rem;
+    background: rgba(192, 166, 136, 1);
+    margin: 10rem auto;
+}
+  
+#idnumber {
+    background-color: pink;
+    /* background: none;
+    background: transparent; */
+    text-align: center;
+  }
+  
+#uislider .ui-widget-header {
+    background: #f6a828 !important;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 50rem) {
+
+}

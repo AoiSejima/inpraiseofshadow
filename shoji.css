@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Cormorant Regular";
+    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Cormorant Medium";
+    src: url("./assets/Cormorant-Medium.woff2") format("woff2"); 
+}
+
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+nav {
+    position: absolute;
+    font-family: "Cormorant Regular";
+    font-size: 18pt;
+    display: flex;
+    margin-top: 32rem;
+    align-items: bottom;
+    color: rgba(43, 29, 13, 1);
+    text-shadow: 1px 1px 10px rgba(43, 29, 13, 1), 5px 5px 10px rgba(43, 29, 13, 1);
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    line-height: 30pt;
+}
+
+a {
+    color: rgba(43, 29, 13, 1);
+}
+
+p {
+    color: rgba(155, 136, 113, 1);
+    font-size: 16pt;
+    font-family: "Cormorant Medium";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 3rem;
+    margin: 17rem 30rem auto 30rem;
+}
+
+#shoji {
+	width: 70rem;
+	height: 50rem;
+	position: absolute;
+    display: block;
+	background: rgba(255, 251, 237, 0.62);
+    outline: 1.5rem solid rgba(101, 74, 43, 1);
+	opacity: 0.5; 
+	filter: blur(1.5px);
+}
