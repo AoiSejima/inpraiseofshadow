@@ -1,0 +1,35 @@
+body {
+  background: #ffffff;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+h2 {
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+  transition: all 1s ease-in-out;
+}
+
+#holderion {
+  padding: 10px 20px;
+  width: 200px;
+  background: rgba(41, 38, 68, 1);
+  margin: 30px auto;
+  box-shadow: 0 0 0 1px #1c1a35 inset;
+}
+
+#idnumber {
+  background: none;
+  background: transparent;
+  text-align: center;
+}
+
+#uislider .ui-widget-header {
+  background: #f6a828 !important;
+  opacity: 0.5;
+}

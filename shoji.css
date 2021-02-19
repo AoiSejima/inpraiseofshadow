@@ -46,12 +46,12 @@ p {
 }
 
 #shoji {
-	width: 70rem;
-	height: 50rem;
+	width: 400px;
+	height: 200px;
 	position: absolute;
     display: block;
 	background: rgba(255, 251, 237, 0.62);
-    outline: 1.5rem solid rgba(101, 74, 43, 1);
+    outline: 5px solid rgba(101, 74, 43, 1);
 	opacity: 0.5; 
 	filter: blur(1.5px);
 }

@@ -5,15 +5,25 @@
 
 body {
     margin: 0 auto;
-    background-color: green;
+    background: rgb(205,255,99);
+    background: linear-gradient(0deg, rgba(205,255,99,1) 0%, rgba(255,246,222,1) 80%);
+}
+
+.eaves {
+    height: 30rem;
+    width: 100%;
+    background-color: rgba(79, 68, 56, 1);
+    box-shadow: 0px 250px 80px black;
+    z-index: 1;
 }
 
 .floor {
-    height: 379pt;
+    position: absolute;
+    height: 25rem;
     width: 100%;
-    background-color: rgba(79, 68, 56, 1);
+    background: rgb(43,29,13);
+    background: linear-gradient(0deg, rgba(43,29,13,1) 0%, rgba(101,74,43,0.75) 50%, rgba(201,177,149,0.5032387955182073) 100%);
     z-index: 1;
-    align-items: bottom;
 }
 
 nav {
@@ -38,14 +48,16 @@ a {
 }
 
 p {
+    width: 50rem;
     color: rgba(43, 29, 13, 1);
     font-size: 16pt;
     font-weight: medium;
     display: flex;
     text-align: center;
-    margin-top: 0;
-    margin-left: 25rem;
+    justify-items: center;
+    margin: 7rem auto;
     line-height: 3rem;
+    z-index: 3;
 }
 
 @media only screen and (max-width: 50rem) {

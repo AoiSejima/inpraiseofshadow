@@ -1,0 +1,13 @@
+body {
+  background-color: blue;
+}
+.follower {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: magenta;
+  top: -200px;
+  left: -200px;
+  opacity: 0.5;
+  filter: blur(3px);
+}

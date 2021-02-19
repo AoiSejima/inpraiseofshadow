@@ -13,8 +13,8 @@ body {
     background-color: rgba(43, 29, 13, 1);
 }
 
-#rectangle {
-    height: 226pt;
+#eaves {
+    height: 20rem;
     width: 100%;
     background-color: rgba(79, 68, 56, 1);
     box-shadow: 0px 250px 80px black;
@@ -36,7 +36,7 @@ h1 {
 .texts {
     font-family: "Cormorant Regular";
     display: flex;
-    margin: 11rem 14rem auto 14rem;
+    margin: 9rem 14rem auto 14rem;
     color: rgba(255, 254, 251, 1);
     text-shadow: 1px 1px 30px rgba(255, 254, 251, 1), 5px 5px 30px rgba(255, 254, 251, 1);
     z-index: 2;
@@ -53,6 +53,10 @@ li {
     display: flex;
 }
 
+a {
+    color: rgba(255, 254, 251, 1);
+}
+
 p {
     font-size: 16pt;
     font-weight: medium;
@@ -60,7 +64,7 @@ p {
     text-align: center;
     margin-top: 0;
     margin-left: 25rem;
-    line-height: 3rem;
+    line-height: 3.5rem;
 }
 
 @media only screen and (max-width: 50rem) {
