@@ -53,7 +53,7 @@ nav {
 
 .hover:hover {
     color: rgba(255, 254, 251, 1);
-    text-shadow: 1px 15px 20px rgba(255, 254, 251, 1);
+    text-shadow: 0px 0px 25px rgba(255, 254, 251, 1);
 }
 
 a {

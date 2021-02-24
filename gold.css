@@ -26,13 +26,12 @@ nav {
     font-size: 20pt;
     display: flex;
     margin-top: -7rem;
-    z-index: 2;
 }
 
 ul, li {
     list-style: none;
     display: inline-block;
-    margin-right: 3rem;
+    margin-right: 5rem;
 }
 
 a {
@@ -45,11 +44,11 @@ a {
 }
 
 .left {
-    margin-right: 10rem;
+    margin-left: 30rem;
 }
 
 .right {
-    
+    margin-left: 60rem;
 }
 
 h2 {
@@ -61,7 +60,6 @@ h2 {
     text-align: center;
     justify-content: center;
     margin-top: 3rem;
-    z-index: 4;
 }
 
 p {
