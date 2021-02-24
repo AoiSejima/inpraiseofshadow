@@ -15,58 +15,63 @@
 
 body {
     margin: 0 auto;
-    background-color: white;
+    background-color: rgba(43, 29, 13, 1);
 }
 
 nav {
     position: absolute;
     font-family: "Cormorant Regular";
-    color: rgba(155, 136, 113, 1);
+    color: rgba(237, 198, 154, 1);
+    text-shadow: 1px 1px 15px rgba(237, 198, 154, 1);
     font-size: 20pt;
     display: flex;
-    margin-top: -5rem;
+    margin-top: -7rem;
     z-index: 2;
 }
 
-ul {
+ul, li {
     list-style: none;
-    line-height: 3rem;
+    display: inline-block;
+    margin-right: 3rem;
 }
 
 a {
     color: rgba(155, 136, 113, 1);
 }
 
+.hover:hover {
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 1px 15px white;
+}
+
+.left {
+    margin-right: 10rem;
+}
+
+.right {
+    
+}
+
 h2 {
-    position: absolute;
     font-family: "Cormorant Regular";
-    color: rgba(101, 74, 43, 1);
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 1px 15px white;
     font-size: 20pt;
     line-height: 25pt;
-    padding-top: 32rem;
-    padding-left: 109rem;
     text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
     z-index: 4;
 }
 
 p {
     font-family: "Cormorant Bold";
-    color: rgba(155, 136, 113, 1);
+    color: rgba(237, 198, 154, 1);
+    text-shadow: 2px 2px 20px rgba(237, 198, 154, 0.5);
     font-size: 15pt;
     display: flex;
     text-align: center;
     justify-content: center;
     line-height: 2.4rem;
-    margin: 5rem 31rem auto 31rem;
-}
-
-#shoji {
-	width: 400px;
-	height: 200px;
-	position: absolute;
-    display: block;
-	background: rgba(255, 251, 237, 0.62);
-    outline: 5px solid rgba(101, 74, 43, 1);
-	opacity: 0.5; 
-	filter: blur(1.5px);
+    margin: 6rem 29rem auto 29rem;
 }

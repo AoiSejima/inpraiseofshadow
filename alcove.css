@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "Cormorant Medium";
-    src: url("./assets/Cormorant-Medium.woff2") format("woff2"); 
+    font-family: "Cormorant Bold";
+    src: url("./assets/Cormorant-Bold.woff2") format("woff2"); 
 }
 
 body {
@@ -18,36 +18,47 @@ body {
 }
 
 nav {
-    position: absolute;
+    position: relative;
     font-family: "Cormorant Regular";
-    font-size: 18pt;
-    display: flex;
-    margin-top: 38rem;
-    align-items: bottom;
-    color: rgba(43, 29, 13, 1);
-    text-shadow: 1px 1px 10px rgba(43, 29, 13, 1), 5px 5px 10px rgba(43, 29, 13, 1);
+    color: rgba(43, 29, 13, 0.8);
+    text-shadow: 20px 20px 20px rgba(83, 67, 49, 1);
+    font-size: 20pt;
+    margin-top: 1rem;
     z-index: 2;
 }
 
-ul {
+ul, li {
     list-style: none;
-    line-height: 30pt;
+    display: inline-block;
+    margin-right: 3rem;
 }
 
 a {
-    color: rgba(43, 29, 13, 1);
+    color: rgba(43, 29, 13, 0.8);
+}
+
+h2 {
+    position: absolute;
+    font-family: "Cormorant Regular";
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 15px 20px rgba(255, 254, 251, 1);
+    font-size: 20pt;
+    line-height: 27pt;
+    padding-top: 45rem;
+    padding-left: 109rem;
+    z-index: 4;
 }
   
 p {
-    font-family: "Cormorant Medium";
+    font-family: "Cormorant Bold";
     font-size: 16pt;
-    color: rgba(239, 222, 202, 0.7);
-    text-shadow: 1px 1px 10px rgba(43, 29, 13, 0.8), 5px 5px 10px rgba(43, 29, 13, 0.8);
-    line-height: 3rem;
+    color: rgba(255, 228, 197, 1);
+    text-shadow: 4px 4px 10px rgba(43, 29, 13, 0.8);
+    line-height: 1.8rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+    margin-top: -6rem;
     transition: all 1s ease-in-out;
 }
   

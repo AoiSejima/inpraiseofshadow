@@ -1,19 +1,39 @@
 @font-face {
+    font-family: "Cormorant Light";
+    src: url("./assets/Cormorant-light.woff2") format("woff2"); 
+}
+
+@font-face {
     font-family: "Cormorant Regular";
     src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
 }
 
+@font-face {
+    font-family: "Cormorant Medium";
+    src: url("./assets/Cormorant-Medium.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Cormorant SemiBold";
+    src: url("./assets/Cormorant-SemiBold.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Cormorant Bold";
+    src: url("./assets/Cormorant-Bold.woff2") format("woff2"); 
+}
+
 body {
     margin: 0 auto;
-    background: rgb(205,255,99);
-    background: linear-gradient(0deg, rgba(205,255,99,1) 0%, rgba(255,246,222,1) 80%);
+    background: white;
 }
 
 .eaves {
-    height: 30rem;
+    position: absolute;
+    height: 5.5rem;
     width: 100%;
-    background-color: rgba(79, 68, 56, 1);
-    box-shadow: 0px 250px 80px black;
+    background-color: rgba(78, 68, 58, 1);
+    box-shadow: 0px 615px 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
 
@@ -22,42 +42,124 @@ body {
     height: 25rem;
     width: 100%;
     background: rgb(43,29,13);
-    background: linear-gradient(0deg, rgba(43,29,13,1) 0%, rgba(101,74,43,0.75) 50%, rgba(201,177,149,0.5032387955182073) 100%);
+    background: linear-gradient(0deg, rgba(43, 29, 13, 1), rgba(101, 74, 43, 0.7552), rgba(192, 166, 136, 0.5));
+    opacity: 0.8;
+    margin-top: 38.5rem;
     z-index: 1;
+}
+
+.shoji-one {
+    position: absolute;
+    height: 42rem;
+    width: 22rem;
+    background-color: rgba(255, 253, 245, 0.8);
+    border: 12pt solid rgba(83, 67, 49, 1);
+    margin: 0;
+    z-index: 3;
+}
+
+.shoji-two {
+    position: absolute;
+    height: 42rem;
+    width: 22rem;
+    background-color: rgba(255, 253, 245, 0.8);
+    border: 12pt solid rgba(83, 67, 49, 1);
+    margin-left: 93rem;
+    z-index: 3;
 }
 
 nav {
     position: absolute;
     font-family: "Cormorant Regular";
-    font-size: 18pt;
+    color: rgba(83, 67, 49, 1);
+    text-shadow: 1px 15px 20px rgba(83, 67, 49, 1);
+    font-size: 20pt;
     display: flex;
-    margin-top: 47rem;
-    align-items: bottom;
-    color: rgba(255, 254, 251, 1);
-    text-shadow: 1px 1px 10px rgba(255, 254, 251, 1), 5px 5px 10px rgba(255, 254, 251, 1);
-    z-index: 2;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    z-index: 4;
 }
 
-ul {
+li {
     list-style: none;
-    line-height: 30pt;
+    margin-top: -22rem;
+    margin-left: 97.5rem;
+    line-height: 5rem;
 }
 
 a {
-    color: rgba(255, 254, 251, 1);
+    color: rgba(83, 67, 49, 1);
+}
+
+.hover:hover {
+    font-family: "Cormorant Bold";
+    text-shadow: 1px 20px 20px rgba(83, 67, 49, 1);
+    font-size: 25pt;
+}
+
+h2 {
+    position: relative;
+    font-family: "Cormorant Regular";
+    color: rgba(83, 67, 49, 1);
+    text-shadow: 1px 15px 20px rgba(83, 67, 49, 1);
+    font-size: 20pt;
+    line-height: 27pt;
+    padding-top: 12rem;
+    padding-left: 11rem;
+    z-index: 4;
 }
 
 p {
-    width: 50rem;
+    position: relative;
     color: rgba(43, 29, 13, 1);
-    font-size: 16pt;
-    font-weight: medium;
+    font-size: 21pt;
     display: flex;
+    align-items: center;
     text-align: center;
     justify-items: center;
-    margin: 7rem auto;
-    line-height: 3rem;
+    margin: auto;
     z-index: 3;
+}
+
+#light {
+    font-family: "Cormorant Light";
+    opacity: 0.6;
+    width: 51rem;
+    margin-top: -21rem;
+    margin-left: 33rem;
+    line-height: 3.5rem;
+}
+
+#regular {
+    font-family: "Cormorant Regular";
+    opacity: 0.7;
+    width: 51rem;
+    margin-left: 33rem;
+    line-height: 3rem;
+}
+
+#medium {
+    font-family: "Cormorant Medium";
+    opacity: 0.8;
+    width: 52rem;
+    margin-left: 33rem;
+    line-height: 3rem;
+}
+
+#semibold {
+    font-family: "Cormorant SemiBold";
+    opacity: 0.9;
+    width: 50rem;
+    margin-left: 34rem;
+    line-height: 2.5rem;
+}
+
+#bold {
+    font-family: "Cormorant Bold";
+    width: 53rem;
+    margin-left: 33rem;
+    line-height: 2rem;
 }
 
 @media only screen and (max-width: 50rem) {
