@@ -72,7 +72,7 @@ nav {
     position: absolute;
     font-family: "Cormorant Regular";
     color: rgba(83, 67, 49, 1);
-    text-shadow: 1px 15px 20px rgba(83, 67, 49, 1);
+    text-shadow: 1px 10px 20px rgba(83, 67, 49, 0.5);
     font-size: 20pt;
     display: flex;
     text-align: center;
@@ -82,7 +82,7 @@ nav {
 
 ul {
     list-style: none;
-    margin-top: -23rem;
+    margin-top: -22rem;
     margin-left: 94.5rem;
     line-height: 7rem;
 }
@@ -93,7 +93,7 @@ a {
 
 .hover:hover {
     font-family: "Cormorant Bold";
-    text-shadow: 1px 20px 20px rgba(83, 67, 49, 1);
+    text-shadow: 1px 10px 20px rgba(83, 67, 49, 0.5);
     font-size: 25pt;
 }
 
@@ -101,7 +101,7 @@ h2 {
     position: relative;
     font-family: "Cormorant Regular";
     color: rgba(83, 67, 49, 1);
-    text-shadow: 1px 15px 20px rgba(83, 67, 49, 1);
+    text-shadow: 1px 1px 20px rgba(83, 67, 49, 1);
     font-size: 20pt;
     line-height: 25pt;
     padding-top: 14.5rem;
@@ -171,6 +171,10 @@ p {
         width: 7rem;
         border: 5pt solid rgba(83, 67, 49, 1);
     }
+
+    .shoji-two {
+        display: none;
+    }
     
     nav {
         font-size: 13pt;
@@ -192,10 +196,10 @@ p {
         position: absolute;
         color: white;
         text-shadow: 0px 0px 25px white;
-        font-size: 10pt;
-        line-height: 13pt;
-        margin-top: 49rem;
-        margin-left: -9rem;
+        font-size: 13pt;
+        line-height: 16pt;
+        margin-top: 48rem;
+        margin-left: -9.5rem;
     }
     
     section {

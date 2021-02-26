@@ -26,7 +26,7 @@ body {
 nav {
     font-family: "Cormorant Regular";
     color: rgba(237, 198, 154, 1);
-    text-shadow: 2px 2px 15px rgba(237, 198, 154, 0.7);
+    text-shadow: 1px 2px 15px rgba(237, 198, 154, 1);
     font-size: 20pt;
     display: flex;
 }
@@ -63,7 +63,7 @@ h2 {
     color: rgba(255, 254, 251, 1);
     text-shadow: 1px 1px 15px white;
     font-size: 20pt;
-    line-height: 25pt;
+    line-height: 23pt;
     margin-top: 3.5rem;
     margin-left: 55rem;
     text-align: center;
@@ -94,4 +94,54 @@ br {
     width: 36rem;
     margin-top: 15rem;
     margin-left: 38rem;
+}
+
+@media only screen and (max-width: 812px) {  
+    nav {
+        font-size: 15pt;
+    }
+    
+    ul, li {
+        margin-top: 2rem;
+        width: 30rem;
+        text-align: center;
+    }
+
+    .left {
+        margin-left: -10em;
+        position: fixed;
+    }
+    
+    .right {
+        margin-left: 1rem;
+        position: fixed;
+    }
+    
+    h2 {
+        position: fixed;
+        font-size: 13pt;
+        line-height: 16pt;
+        margin-top: 3.5rem;
+        margin-left: 11.7rem;
+    }
+    
+    p {
+        font-size: 12pt;
+        line-height: 2.3rem;
+        width: 18rem;
+        margin-top: 9rem;
+        margin-left: 3rem;
+    }
+    
+    br {
+        line-height: 1.5rem;
+    }
+    
+    .goldhover:hover {
+        font-size: 12pt;
+        line-height: 1.8rem;
+        width: 36rem;
+        margin-top: 15rem;
+        margin-left: 38rem;
+    }
 }

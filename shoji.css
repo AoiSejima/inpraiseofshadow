@@ -47,8 +47,8 @@ h2 {
     font-family: "Cormorant Regular";
     color: rgba(101, 74, 43, 1);
     font-size: 20pt;
-    line-height: 25pt;
-    margin-top: 47rem;
+    line-height: 23pt;
+    margin-top: 50.5rem;
     margin-left: 108rem;
     text-align: center;
     justify-content: center;
@@ -71,14 +71,14 @@ br {
     line-height: 1.5rem;
 }
 
-#shoji {
-	width: 40rem;
-	height: 45rem;
-	position: absolute;
-    display: block;
-	background: rgba(255, 251, 237, 0.6);
-    outline: 1rem solid rgb(136, 109, 73);
-	/* filter: blur(1.5px); */
+.shoji {
+    position: absolute;
+	background: rgba(255, 251, 237, 0.4);
+    border: 10pt solid rgba(101, 74, 43, 1);
+    width: 60rem;
+    height: 65rem;
+    top: -30rem;
+    left: -60rem;
 }
 
 @media only screen and (max-width: 812px) { 
@@ -89,12 +89,11 @@ br {
         justify-content: center;
     }
     
-    ul,li {
+    ul, li {
         line-height: 2rem;
         display: inline-block;
         margin-top: -4rem;
-        margin-right: 3rem;
-        text-align: right;
+        margin-right: 2rem;
     }
 
     .hover:hover {
@@ -116,16 +115,16 @@ br {
     }
     
     br {
-        line-height: 1rem;
+        line-height: 0.5rem;
     }
     
-    #shoji {
+    .shoji {
+        position: absolute;
+        background: rgba(255, 251, 237, 0.4);
+        border: 5pt solid rgba(101, 74, 43, 1);
         width: 20rem;
         height: 25rem;
-        position: absolute;
-        display: block;
-        background: rgba(255, 251, 237, 0.6);
-        outline: 1rem solid rgb(136, 109, 73);
-        /* filter: blur(1.5px); */
+        top: -30rem;
+        left: -60rem;
     }
 }

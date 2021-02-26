@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Cormorant Bold Italic";
-    src: url("./assets/Cormorant-BoldItalic.woff2") format("woff2"); 
+    font-family: "Cormorant Regular";
+    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
 }
 
 @font-face {
@@ -9,15 +9,13 @@
 }
 
 @font-face {
-    font-family: "Cormorant Regular";
-    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+    font-family: "Cormorant Bold Italic";
+    src: url("./assets/Cormorant-BoldItalic.woff2") format("woff2"); 
 }
 
 body {
     margin: 0 auto;
     background-color: rgb(82, 65, 49);
-    width: 100%;
-    height: 100%;
 }
 
 .eaves {
@@ -26,7 +24,7 @@ body {
     height: 21rem;
     width: 100%;
     background-color: rgb(138, 114, 92);
-    box-shadow: 0px 270px 80px rgba(29, 25, 21, 0.5);
+    box-shadow: 0px 270px 80px rgb(54, 44, 33, 0.9);
     z-index: 1;
 }
 
@@ -49,10 +47,10 @@ h2 {
 }
 
 ul {
-    font-family: "Cormorant Regular";
+    font-family: "Cormorant Medium";
     color: rgba(60, 48, 35, 1);
-    text-shadow: 1px 15px 20px rgba(60, 48, 35, 0.7);
-    font-size: 22pt;
+    text-shadow: 1px 10px 30px rgb(78, 64, 48);
+    font-size: 20pt;
     list-style: none;
 }
 
@@ -87,7 +85,7 @@ h1 {
     color: rgba(255, 255, 251, 0.7);
     font-size: 38pt;
     letter-spacing: 10pt;
-    margin-top: 8rem;
+    margin-top: 9rem;
     text-align: center;
     z-index: 2;
 }
@@ -100,12 +98,16 @@ p {
     font-size: 20pt;
     line-height: 3rem;
     width: 47%;
-    margin: 6rem 30rem auto;
+    margin-top: 7rem;
+    margin-left: 30rem;
     display: flex;
     text-align: center;
     justify-content: center;
     z-index: 2;
 }
+ br {
+     line-height: 1.5rem;
+ }
 
 @media only screen and (max-width: 812px) {
     .eaves {
@@ -136,12 +138,18 @@ p {
         font-size: 15pt;
         letter-spacing: 3pt;
         margin-top: 6rem;
+        margin-left: 0.5rem;
     }
     
     p {
-        font-size: 10pt;
-        line-height: 3rem;
-        width: 40%;
-        margin-top: -10rem;
+        font-size: 12pt;
+        line-height: 17pt;
+        width: 70%;
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    br {
+        line-height: 0.8rem;
     }
 }
