@@ -24,7 +24,7 @@ nav {
     color: rgba(155, 136, 113, 1);
     font-size: 20pt;
     display: flex;
-    margin-top: -5rem;
+    margin-top: -3rem;
     z-index: 3;
 }
 
@@ -37,36 +37,95 @@ a {
     color: rgba(155, 136, 113, 1);
 }
 
+.hover:hover {
+    font-family: "Cormorant Bold";
+    font-size: 25pt;
+}
+
 h2 {
     position: absolute;
     font-family: "Cormorant Regular";
     color: rgba(101, 74, 43, 1);
     font-size: 20pt;
     line-height: 25pt;
-    padding-top: 32rem;
-    padding-left: 109rem;
+    margin-top: 47rem;
+    margin-left: 108rem;
     text-align: center;
+    justify-content: center;
     z-index: 4;
 }
 
 p {
     font-family: "Cormorant Bold";
     color: rgba(155, 136, 113, 1);
-    font-size: 15pt;
+    width: 47rem;
+    font-size: 17pt;
+    line-height: 2.3rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    line-height: 2.4rem;
-    margin: 5rem 31rem auto 31rem;
+    margin: 3rem auto;
+}
+
+br {
+    line-height: 1.5rem;
 }
 
 #shoji {
-	width: 400px;
-	height: 200px;
+	width: 40rem;
+	height: 45rem;
 	position: absolute;
     display: block;
-	background: rgba(255, 251, 237, 0.62);
-    outline: 5px solid rgba(101, 74, 43, 1);
-	opacity: 0.5; 
-	filter: blur(1.5px);
+	background: rgba(255, 251, 237, 0.6);
+    outline: 1rem solid rgb(136, 109, 73);
+	/* filter: blur(1.5px); */
+}
+
+@media only screen and (max-width: 812px) { 
+    nav {
+        font-size: 14pt;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    ul,li {
+        line-height: 2rem;
+        display: inline-block;
+        margin-top: -4rem;
+        margin-right: 3rem;
+        text-align: right;
+    }
+
+    .hover:hover {
+        font-size: 16pt;
+    }
+    
+    h2 {
+        font-size: 12pt;
+        line-height: 14pt;
+        margin-top: -8rem;
+        margin-left: 11.2rem;
+    }
+    
+    p {
+        width: 16rem;
+        font-size: 13pt;
+        line-height: 1.5rem;
+        margin: 10rem auto;
+    }
+    
+    br {
+        line-height: 1rem;
+    }
+    
+    #shoji {
+        width: 20rem;
+        height: 25rem;
+        position: absolute;
+        display: block;
+        background: rgba(255, 251, 237, 0.6);
+        outline: 1rem solid rgb(136, 109, 73);
+        /* filter: blur(1.5px); */
+    }
 }

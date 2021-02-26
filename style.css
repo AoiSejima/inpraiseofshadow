@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     background-color: rgb(82, 65, 49);
     width: 100%;
+    height: 100%;
 }
 
 .eaves {
@@ -43,7 +44,7 @@ h2 {
     color: white;
     text-shadow: 0px 0px 25px white;
     font-size: 20pt;
-    line-height: 28pt;
+    line-height: 25pt;
     padding-top: 1rem;
 }
 
@@ -76,7 +77,6 @@ a {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    width: 100%;
     width: 70%;
     margin: 5rem 55rem auto 14rem;
 }
@@ -99,14 +99,49 @@ p {
     text-shadow: 0px 10px 30px rgba(255, 254, 251, 0.5);
     font-size: 20pt;
     line-height: 3rem;
+    width: 47%;
+    margin: 6rem 30rem auto;
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 47%;
-    margin: 6rem 30rem auto;
     z-index: 2;
 }
 
-@media only screen and (max-width: 50rem) {
-
+@media only screen and (max-width: 812px) {
+    .eaves {
+        height: 21rem;
+    }
+    
+    h2 {
+        font-size: 13pt;
+        line-height: 20pt;
+        padding-top: 1rem;
+    }
+    
+    ul {
+        font-size: 13pt;
+    }
+    
+    .top {
+        width: 47%;
+        margin: 12rem 15rem auto 5rem;
+    }
+    
+    .bottom {
+        width: 55%;
+        margin: 3rem 10rem auto 5rem;
+    }
+    
+    h1 {
+        font-size: 15pt;
+        letter-spacing: 3pt;
+        margin-top: 6rem;
+    }
+    
+    p {
+        font-size: 10pt;
+        line-height: 3rem;
+        width: 40%;
+        margin-top: -10rem;
+    }
 }

@@ -18,23 +18,29 @@ body {
 }
 
 nav {
-    position: relative;
+    position: absolute;
     font-family: "Cormorant Regular";
-    color: rgba(43, 29, 13, 0.8);
-    text-shadow: 20px 20px 20px rgba(83, 67, 49, 1);
+    color: rgba(43, 29, 13, 1);
+    text-shadow: 1px 10px 20px rgba(43, 29, 13, 0.6);
     font-size: 20pt;
-    margin-top: 1rem;
+    margin-top: -9rem;
     z-index: 2;
 }
 
 ul, li {
     list-style: none;
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 a {
     color: rgba(43, 29, 13, 0.8);
+}
+
+.hover:hover {
+    font-family: "Cormorant Bold";
+    text-shadow: 1px 20px 20px rgba(43, 29, 13, 0.8);
+    font-size: 25pt;
 }
 
 h2 {
@@ -43,22 +49,28 @@ h2 {
     color: rgba(255, 254, 251, 1);
     text-shadow: 1px 15px 20px rgba(255, 254, 251, 1);
     font-size: 20pt;
-    line-height: 27pt;
-    padding-top: 45rem;
-    padding-left: 109rem;
+    line-height: 24pt;
+    margin-top: 47rem;
+    margin-left: 108rem;
+    text-align: center;
+    justify-content: center;
     z-index: 4;
 }
   
 p {
+    position: absolute;
     font-family: "Cormorant Bold";
-    font-size: 16pt;
     color: rgba(255, 228, 197, 1);
-    text-shadow: 4px 4px 10px rgba(43, 29, 13, 0.8);
-    line-height: 1.8rem;
+    text-shadow: 4px 4px 15px rgba(43, 29, 13, 0.6);
+    width: 48rem;
+    font-size: 17pt;
+    line-height: 2.4rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: -6rem;
+    margin-top: -1rem;
+    margin-left: 6rem;
+    padding-bottom: 5rem;
     transition: all 1s ease-in-out;
 }
   
@@ -80,6 +92,60 @@ p {
     opacity: 0.5;
 }
 
-@media only screen and (max-width: 50rem) {
-
+@media only screen and (max-width: 812px) { 
+    nav {
+        font-size: 13pt;
+        margin-top: -9rem;
+    }
+    
+    ul, li {
+        margin-right: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .hover:hover {
+        font-size: 16pt;
+    }
+    
+    h2 {
+        position: absolute;
+        font-family: "Cormorant Regular";
+        color: rgba(255, 254, 251, 1);
+        text-shadow: 1px 15px 20px rgba(255, 254, 251, 1);
+        font-size: 20pt;
+        line-height: 24pt;
+        margin-top: 47rem;
+        margin-left: 108rem;
+        text-align: center;
+        justify-content: center;
+        z-index: 4;
+    }
+      
+    p {
+        width: 18rem;
+        font-size: 13pt;
+        line-height: 17pt;
+        margin-top: -3rem;
+        margin-left: 3rem;
+        padding-bottom: 2rem;
+    }
+      
+    #holderion {
+        width: 60rem;
+        background: rgba(192, 166, 136, 1);
+        margin: 10rem auto;
+    }
+      
+    #idnumber {
+        background-color: pink;
+        background: none;
+        background: transparent;
+        text-align: center;
+      }
+      
+    #uislider .ui-widget-header {
+        background: #f6a828 !important;
+        opacity: 0.5;
+    }
 }

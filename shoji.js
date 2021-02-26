@@ -1,5 +1,5 @@
 $(document).mousemove(function(e){
 	x = e.pageX;
 	y = e.pageY;
-$("#shoji").css("transform", "translate3d(" + x + "px, " + y + "px, " + "0)" );
+$("#shoji").css("transform", "translate3d(" + x + "rem, " + y + "rem, " + "0)" );
 });

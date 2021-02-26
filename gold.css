@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: "Cormorant SemiBold";
+    src: url("./assets/Cormorant-SemiBold.woff2") format("woff2"); 
+}
+
+@font-face {
     font-family: "Cormorant Bold";
     src: url("./assets/Cormorant-Bold.woff2") format("woff2"); 
 }
@@ -19,19 +24,18 @@ body {
 }
 
 nav {
-    position: absolute;
     font-family: "Cormorant Regular";
     color: rgba(237, 198, 154, 1);
-    text-shadow: 1px 1px 15px rgba(237, 198, 154, 1);
+    text-shadow: 2px 2px 15px rgba(237, 198, 154, 0.7);
     font-size: 20pt;
     display: flex;
-    margin-top: -7rem;
 }
 
 ul, li {
     list-style: none;
     display: inline-block;
-    margin-right: 5rem;
+    margin-right: 4.5rem;
+    margin-top: 3.4rem;
 }
 
 a {
@@ -44,32 +48,50 @@ a {
 }
 
 .left {
+    position: absolute;
     margin-left: 30rem;
 }
 
 .right {
+    position: absolute;
     margin-left: 60rem;
 }
 
 h2 {
+    position: absolute;
     font-family: "Cormorant Regular";
     color: rgba(255, 254, 251, 1);
     text-shadow: 1px 1px 15px white;
     font-size: 20pt;
     line-height: 25pt;
+    margin-top: 3.5rem;
+    margin-left: 55rem;
     text-align: center;
     justify-content: center;
-    margin-top: 3rem;
 }
 
 p {
-    font-family: "Cormorant Bold";
+    font-family: "Cormorant SemiBold";
     color: rgba(237, 198, 154, 1);
-    text-shadow: 2px 2px 20px rgba(237, 198, 154, 0.5);
-    font-size: 15pt;
+    text-shadow: 2px 2px 15px rgba(237, 198, 154, 0.7);
+    font-size: 16pt;
+    line-height: 2.3rem;
+    width: 45rem;
+    margin-top: 10rem;
+    margin-left: 33rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    line-height: 2.4rem;
-    margin: 6rem 29rem auto 29rem;
+}
+
+br {
+    line-height: 1.5rem;
+}
+
+.goldhover:hover {
+    font-size: 12pt;
+    line-height: 1.8rem;
+    width: 36rem;
+    margin-top: 15rem;
+    margin-left: 38rem;
 }

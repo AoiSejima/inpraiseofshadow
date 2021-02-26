@@ -24,3 +24,7 @@ $( "#uislider" ).slider({
   }
 });
 $( "#idnumber" ).val( $( "#uislider" ).slider( "value" ) );
+
+$(window).scroll(function() {
+  $('hr').css('top', $(this).scrollTop() + "rem");
+});
