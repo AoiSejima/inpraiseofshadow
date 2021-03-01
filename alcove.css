@@ -63,6 +63,7 @@ a {
 p {
     position: absolute;
     font-family: "Cormorant Bold";
+    color: rgba(255, 228, 197, 1);
     width: 47rem;
     font-size: 17pt;
     line-height: 2.4rem;
