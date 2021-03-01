@@ -21,11 +21,11 @@ body {
 nav {
     position: absolute;
     font-family: "Cormorant Regular";
-    color: rgba(155, 136, 113, 1);
+    color: rgba(101, 74, 43, 1);
     font-size: 20pt;
     display: flex;
-    margin-top: -3rem;
-    z-index: 3;
+    margin-top: -2rem;
+    z-index: 1;
 }
 
 ul,li {
@@ -34,7 +34,7 @@ ul,li {
 }
 
 a {
-    color: rgba(155, 136, 113, 1);
+    color: rgba(101, 74, 43, 1);
 }
 
 .hover:hover {
@@ -49,11 +49,11 @@ h2 {
     color: rgba(101, 74, 43, 1);
     font-size: 20pt;
     line-height: 23pt;
-    margin-top: 49rem;
+    margin-top: 51rem;
     margin-left: 108rem;
     text-align: center;
     justify-content: center;
-    z-index: 4;
+    z-index: 2;
 }
 
 p {
@@ -74,7 +74,7 @@ br {
 
 .shoji {
     position: absolute;
-	background: rgba(255, 251, 237, 0.4);
+	background: rgba(255, 251, 237, 0.5);
     border: 10pt solid rgba(101, 74, 43, 1);
     width: 60rem;
     height: 65rem;

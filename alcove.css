@@ -24,7 +24,7 @@ h2 {
     text-shadow: 1px 15px 20px rgba(255, 254, 251, 1);
     font-size: 20pt;
     line-height: 23pt;
-    margin-top: 41rem;
+    margin-top: 43rem;
     margin-left: 108rem;
     text-align: center;
     justify-content: center;
@@ -38,7 +38,7 @@ nav {
     text-shadow: 1px 10px 20px rgba(43, 29, 13, 0.5);
     font-size: 20pt;
     margin-top: -8rem;
-    margin-left: -34rem;
+    margin-left: -33.5rem;
     transition: all 1s ease-in-out;
     z-index: 2;
 }
