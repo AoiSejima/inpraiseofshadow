@@ -10,7 +10,7 @@
 
 body {
     margin: 0 auto;
-    background-color: rgba(192, 166, 136, 1);
+    background: rgba(192, 166, 136, 1);
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
@@ -23,7 +23,7 @@ h2 {
     color: rgba(255, 254, 251, 1);
     text-shadow: 1px 15px 20px rgba(255, 254, 251, 1);
     font-size: 20pt;
-    line-height: 24pt;
+    line-height: 23pt;
     margin-top: 41rem;
     margin-left: 108rem;
     text-align: center;
@@ -32,25 +32,21 @@ h2 {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     font-family: "Cormorant Regular";
     color: rgba(43, 29, 13, 1);
     text-shadow: 1px 10px 20px rgba(43, 29, 13, 0.5);
     font-size: 20pt;
-    margin-top: -7rem;
-    z-index: 2;
+    margin-top: -8rem;
+    margin-left: -34rem;
     transition: all 1s ease-in-out;
+    z-index: 2;
 }
 
 ul, li {
     list-style: none;
     display: inline-block;
-    margin-right: 1.5rem;
-}
-
-ul {
-    text-align: left;
-    justify-content: left;
+    margin-right: 2rem;
 }
 
 a {
@@ -61,68 +57,73 @@ a {
     font-family: "Cormorant Bold";
     text-shadow: 1px 20px 20px rgba(43, 29, 13, 0.5);
     font-size: 25pt;
+    transition: all 0.4s ease-in-out;
 }
   
 p {
     position: absolute;
     font-family: "Cormorant Bold";
-    color: rgba(255, 228, 197, 1);
-    text-shadow: 4px 4px 15px rgba(43, 29, 13, 0.6);
-    width: 48rem;
+    width: 47rem;
     font-size: 17pt;
     line-height: 2.4rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 4rem;
-    margin-left: 1rem;
+    margin: 4.5rem auto;
     padding-bottom: 5rem;
     transition: all 1s ease-in-out;
 }
   
 #holderion {
-    width: 50rem;
-    background: rgb(255,228,197);
-    background: linear-gradient(90deg, rgba(255,228,197,1) 0%, rgba(34,22,9,1) 100%);
+    width: 45rem;
     margin: 8rem auto;
 }
 
+#uislider {
+    background: rgb(255,228,197);
+    background: linear-gradient(90deg, rgba(255,228,197,1) 0%, rgba(34,22,9,1) 100%);
+    margin-left: 3rem;
+}
+
 @media only screen and (max-width: 812px) { 
+    h2 {
+        font-size: 13pt;
+        line-height: 16pt;
+        margin-top: 34rem;
+        margin-left: 21.5rem;
+    }
+    
     nav {
         font-size: 13pt;
-        margin-top: -5rem;
+        margin-top: -6.5rem;
+        margin-left: -2.8rem;
     }
 
     ul, li {
         margin-right: 1rem;
         text-align: center;
-        justify-content: center;
+        justify-content: justify;
     }
 
     .hover:hover {
         font-size: 16pt;
     }
-
-    h2 {
-        font-size: 20pt;
-        line-height: 24pt;
-        margin-top: 47rem;
-        margin-left: 108rem;
-    }
         
     p {
-        width: 18rem;
+        width: 16rem;
         font-size: 13pt;
         line-height: 17pt;
-        margin-top: 3rem;
-        margin-left: -1.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
         padding-bottom: 2rem;
     }
         
     #holderion {
-        width: 14rem;
-        background: rgb(255,228,197);
-        background: linear-gradient(90deg, rgba(255,228,197,1) 0%, rgba(34,22,9,1) 100%);
-        margin: 6rem auto;
+        width: 17rem;
+        margin: 8rem auto;
     }    
+
+    #uislider {
+        margin-left: 0.5rem;
+    }
 }

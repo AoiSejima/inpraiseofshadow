@@ -26,7 +26,7 @@ body {
 nav {
     font-family: "Cormorant Regular";
     color: rgba(237, 198, 154, 1);
-    text-shadow: 1px 2px 15px rgba(237, 198, 154, 1);
+    text-shadow: 1px 1px 9px rgba(237, 198, 154, 1);
     font-size: 20pt;
     display: flex;
 }
@@ -45,6 +45,7 @@ a {
 .hover:hover {
     color: rgba(255, 254, 251, 1);
     text-shadow: 1px 1px 15px white;
+    transition: all 0.4s ease-in-out;
 }
 
 .left {
@@ -77,8 +78,8 @@ p {
     font-size: 16pt;
     line-height: 2.3rem;
     width: 45rem;
+    margin: auto;
     margin-top: 10rem;
-    margin-left: 33rem;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -91,9 +92,12 @@ br {
 .goldhover:hover {
     font-size: 12pt;
     line-height: 1.8rem;
-    width: 36rem;
-    margin-top: 15rem;
-    margin-left: 38rem;
+    width: 34rem;
+    margin: auto;
+    margin-top: 13rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 812px) {  
