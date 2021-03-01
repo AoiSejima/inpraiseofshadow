@@ -85,6 +85,15 @@ p {
     margin-left: 3rem;
 }
 
+.ui-slider .ui-slider-range {
+    background: rgb(255,228,197);
+    background: linear-gradient(90deg, rgba(255,228,197,1) 0%, rgba(34,22,9,1) 100%);
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: rgb(255,228,197);
+}
+
 @media only screen and (max-width: 812px) { 
     h2 {
         font-size: 13pt;
