@@ -28,7 +28,7 @@ body {
     background: white;
 }
 
-.eaves {
+#eaves {
     position: absolute;
     height: 5.5rem;
     width: 100%;
@@ -37,7 +37,7 @@ body {
     z-index: 1;
 }
 
-.floor {
+#floor {
     position: absolute;
     height: 50rem;
     width: 100%;
@@ -48,7 +48,7 @@ body {
     z-index: 1;
 }
 
-.shoji-one {
+#shoji-one {
     position: absolute;
     height: 43.5rem;
     width: 22rem;
@@ -58,7 +58,7 @@ body {
     z-index: 3;
 }
 
-.shoji-two {
+#shoji-two {
     position: absolute;
     height: 43.5rem;
     width: 22rem;
@@ -158,23 +158,23 @@ p {
 }
 
 @media only screen and (max-width: 812px) {
-    .eaves {
+    #eaves {
         display: none;
     }
     
-    .floor {
+    #floor {
         height: 18.2rem;
         margin-top: 54.8rem;
     }
     
-    .shoji-one {
+    #shoji-one {
         width: 7rem;
         height: 37.5rem;
         border: 5pt solid rgba(83, 67, 49, 1);
         margin-top: 22rem;
     }
 
-    .shoji-two {
+    #shoji-two {
         display: none;
     }
     

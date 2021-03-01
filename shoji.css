@@ -88,8 +88,8 @@ br {
     }
     
     ul {
-        margin-top: -6.2rem;
-        margin-left: 1rem;
+        margin-top: -8.2rem;
+        margin-left: -0.5rem;
         height: 10rem;
     }
 
@@ -105,8 +105,8 @@ br {
         text-align: left;
         justify-content: left;
         width: 5rem;
-        margin-top: -6.2rem;
-        margin-left: 11rem;
+        margin-top: -6.4rem;
+        margin-left: 14rem;
     }
 
     .hover:hover {
@@ -116,7 +116,7 @@ br {
     h2 {
         font-size: 12pt;
         line-height: 14pt;
-        margin-top: -8rem;
+        margin-top: -9.8rem;
         margin-left: 11.2rem;
     }
     
@@ -124,9 +124,8 @@ br {
         width: 15rem;
         font-size: 13pt;
         line-height: 1.5rem;
-        margin: 10rem auto;
-        padding-top: 2rem;
-        padding-bottom: 26rem;
+        margin: 12rem auto;
+        padding-bottom: 22rem;
     }
     
     br {
@@ -143,6 +142,6 @@ br {
         border: 4pt solid rgba(101, 74, 43, 1);
         width: 22.8rem;
         height: 10rem;
-        margin-top: -135.5rem;
+        margin-top: -132.5rem;
     }
 }

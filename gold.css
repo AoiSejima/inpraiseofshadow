@@ -28,6 +28,20 @@ body {
     background-color: rgba(43, 29, 13, 1);
 }
 
+#goldcursor {
+    width: 15%;
+    position: absolute;
+    pointer-events: none;
+    top: -300rem;
+    left: -60rem;
+}
+
+#img {
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
 nav {
     font-family: "Cormorant Light";
     color: rgba(237, 198, 154, 1);

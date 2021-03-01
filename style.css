@@ -54,7 +54,7 @@ ul {
     list-style: none;
 }
 
-.top {
+#top {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -62,7 +62,7 @@ ul {
     margin: 5.5rem 58rem auto 23rem;
 }
 
-.bottom {
+#bottom {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -126,12 +126,12 @@ br {
         font-size: 13pt;
     }
     
-    .top {
+    #top {
         width: 33%;
         margin: 12rem auto auto 12rem;
     }
     
-    .bottom {
+    #bottom {
         width: 45%;
         margin: 3rem 25rem auto 10rem;
     }
