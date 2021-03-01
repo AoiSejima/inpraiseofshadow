@@ -42,16 +42,32 @@ h2 {
     color: white;
     text-shadow: 0px 0px 25px white;
     font-size: 20pt;
-    line-height: 25pt;
-    padding-top: 1rem;
+    line-height: 27pt;
+    padding-top: 2rem;
 }
 
 ul {
     font-family: "Cormorant Medium";
-    color: rgba(60, 48, 35, 1);
-    text-shadow: 1px 10px 30px rgb(78, 64, 48);
+    color: rgb(56, 43, 30);
+    text-shadow: 1px 10px 30px rgb(78, 64, 48, 0.8);
     font-size: 20pt;
     list-style: none;
+}
+
+.top {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 48%;
+    margin: 5.5rem 58rem auto 23rem;
+}
+
+.bottom {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5.5rem 60rem auto 13rem;
 }
 
 .hover:hover {
@@ -61,31 +77,15 @@ ul {
 }
 
 a {
-    color: rgba(60, 48, 35, 1);
-}
-
-.top {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 50%;
-    margin: 5rem 60rem auto 23rem;
-}
-
-.bottom {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 70%;
-    margin: 5rem 55rem auto 14rem;
+    color: rgb(56, 43, 30);
 }
 
 h1 {
     position: relative;
     font-family: "Cormorant Bold Italic";
-    color: rgba(255, 255, 251, 0.7);
-    font-size: 38pt;
-    letter-spacing: 10pt;
+    color: rgba(255, 255, 251, 0.2);
+    font-size: 45pt;
+    letter-spacing: 40pt;
     margin-top: 9rem;
     text-align: center;
     z-index: 2;
@@ -97,18 +97,19 @@ p {
     color: rgba(255, 254, 251, 1);
     text-shadow: 0px 10px 30px rgba(255, 254, 251, 0.5);
     font-size: 20pt;
-    line-height: 3rem;
+    line-height: 2.7rem;
     width: 47%;
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-left: 30rem;
     display: flex;
     text-align: center;
     justify-content: center;
     z-index: 2;
 }
- br {
-     line-height: 1.5rem;
- }
+
+br {
+     line-height: 2rem;
+}
 
 @media only screen and (max-width: 812px) {
     .eaves {
@@ -126,31 +127,31 @@ p {
     }
     
     .top {
-        width: 47%;
-        margin: 12rem 15rem auto 5rem;
+        width: 33%;
+        margin: 12rem auto auto 12rem;
     }
     
     .bottom {
-        width: 55%;
-        margin: 3rem 10rem auto 5rem;
+        width: 45%;
+        margin: 3rem 25rem auto 10rem;
     }
     
     h1 {
         font-size: 15pt;
-        letter-spacing: 3pt;
-        margin-top: 6rem;
+        letter-spacing: 5pt;
+        margin-top: 5rem;
         margin-left: 0.5rem;
     }
     
     p {
         font-size: 12pt;
-        line-height: 17pt;
+        line-height: 16pt;
         width: 70%;
-        margin-top: 3rem;
+        margin-top: 4rem;
         margin-left: 3.8rem;
     }
 
     br {
-        line-height: 0.8rem;
+        line-height: 0.9rem;
     }
 }

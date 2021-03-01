@@ -76,14 +76,15 @@ p {
 }
   
 #holderion {
-    width: 45rem;
+    width: 46rem;
     margin: 8rem auto;
 }
 
 #uislider {
     background: rgb(255,228,197);
     background: linear-gradient(90deg, rgba(255,228,197,1) 0%, rgba(34,22,9,1) 100%);
-    margin-left: 3rem;
+    margin-left: 2rem;
+    border: 1px solid rgb(182, 169, 155);
 }
 
 .ui-slider .ui-slider-range {
@@ -93,6 +94,7 @@ p {
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     background: rgb(255,228,197);
+    border: 1px solid rgb(182, 169, 155);
 }
 
 @media only screen and (max-width: 812px) { 

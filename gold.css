@@ -1,4 +1,9 @@
 @font-face {
+    font-family: "Cormorant Light";
+    src: url("./assets/Cormorant-Light.woff2") format("woff2"); 
+}
+
+@font-face {
     font-family: "Cormorant Regular";
     src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
 }
@@ -24,7 +29,7 @@ body {
 }
 
 nav {
-    font-family: "Cormorant Regular";
+    font-family: "Cormorant Light";
     color: rgba(237, 198, 154, 1);
     text-shadow: 1px 1px 9px rgba(237, 198, 154, 1);
     font-size: 20pt;
@@ -34,19 +39,26 @@ nav {
 ul, li {
     list-style: none;
     display: inline-block;
-    margin-right: 4.5rem;
-    margin-top: 3.4rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
 }
 
-a {
-    color: rgba(155, 136, 113, 1);
+#left {
+    position: fixed;
+    text-align: left;
+    justify-content: left;
+    width: 40rem;
+    margin-left: 25rem;
 }
 
-.hover:hover {
-    color: rgba(255, 254, 251, 1);
-    text-shadow: 1px 1px 15px white;
-    transition: all 0.4s ease-in-out;
+#right {
+    position: fixed;
+    text-align: right;
+    justify-content: right;
+    width: 40rem;
+    margin-left: 46rem;
 }
+
 
 .left {
     position: absolute;
@@ -56,6 +68,17 @@ a {
 .right {
     position: absolute;
     margin-left: 60rem;
+}
+
+a {
+    color: rgba(237, 198, 154, 1);
+}
+
+.hover:hover {
+    font-family: "Cormorant Regular";
+    color: rgba(255, 254, 251, 1);
+    text-shadow: 1px 1px 20px white;
+    transition: all 0.4s ease-in-out;
 }
 
 h2 {
@@ -102,39 +125,60 @@ br {
 
 @media only screen and (max-width: 812px) {  
     nav {
-        font-size: 15pt;
-    }
-    
-    ul, li {
-        margin-top: 2rem;
-        width: 30rem;
-        text-align: center;
+        font-size: 14pt;
     }
 
-    .left {
-        margin-left: -10em;
+    #mobile-gradient{
         position: fixed;
+        background: rgb(43,29,13);
+        background: linear-gradient(180deg, rgba(43,29,13,1) 60%, rgba(43,29,13,0) 100%);
+        width: 23.45rem;
+        height: 10rem;
+        z-index: 1;
+    }
+
+    ul {
+        margin-top: 0.6rem;
+        z-index: 2;    
+    }
+
+    #left {
+        position: fixed;
+        line-height: 0.7pt;
+        text-align: left;
+        justify-content: left;
+        width: 5rem;
+        margin-left: -0.5rem;
+        z-index: 2;
     }
     
-    .right {
-        margin-left: 1rem;
+    #right {
         position: fixed;
+        line-height: 0.7pt;
+        text-align: right;
+        justify-content: right;
+        width: 16rem;
+        margin-top: -0.1rem;
+        margin-left: 10rem;
+        z-index: 2;
     }
-    
+
     h2 {
         position: fixed;
-        font-size: 13pt;
-        line-height: 16pt;
-        margin-top: 3.5rem;
+        font-size: 14pt;
+        line-height: 15pt;
+        margin-top:2.5rem;
         margin-left: 11.7rem;
+        z-index: 2;
     }
     
     p {
         font-size: 12pt;
-        line-height: 2.3rem;
-        width: 18rem;
+        line-height: 2rem;
+        width: 16.5rem;
         margin-top: 9rem;
-        margin-left: 3rem;
+        margin-left: 3.6rem;
+        padding-bottom: 4rem;
     }
     
     br {
@@ -142,10 +186,10 @@ br {
     }
     
     .goldhover:hover {
-        font-size: 12pt;
-        line-height: 1.8rem;
-        width: 36rem;
-        margin-top: 15rem;
-        margin-left: 38rem;
+        font-size: 10pt;
+        line-height: 0.9rem;
+        width: 14rem;
+        margin-top: 9rem;
+        margin-left: 5rem;
     }
 }

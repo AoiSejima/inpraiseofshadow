@@ -30,7 +30,7 @@ nav {
 
 ul,li {
     list-style: none;
-    line-height: 3rem;
+    line-height: 3.2rem;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 .hover:hover {
     font-family: "Cormorant Bold";
     font-size: 25pt;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 h2 {
@@ -85,15 +85,28 @@ br {
 @media only screen and (max-width: 812px) { 
     nav {
         font-size: 14pt;
-        text-align: center;
-        justify-content: center;
     }
     
-    ul, li {
-        line-height: 2rem;
-        display: inline-block;
-        margin-top: -4rem;
-        margin-right: 2rem;
+    ul {
+        margin-top: -6.2rem;
+        margin-left: 1rem;
+        height: 10rem;
+    }
+
+    #left {
+        position: relative;
+        text-align: right;
+        justify-content: right;
+        width: 5rem;
+    }
+    
+    #right {
+        position: relative;
+        text-align: left;
+        justify-content: left;
+        width: 5rem;
+        margin-top: -6.2rem;
+        margin-left: 11rem;
     }
 
     .hover:hover {
@@ -112,7 +125,8 @@ br {
         font-size: 13pt;
         line-height: 1.5rem;
         margin: 10rem auto;
-        padding-bottom: 30rem;
+        padding-top: 2rem;
+        padding-bottom: 26rem;
     }
     
     br {
@@ -126,9 +140,9 @@ br {
     #shoji-mobile {
         position: fixed;
         background: rgba(255, 251, 237, 0.4);
-        border: 2pt solid rgba(101, 74, 43, 1);
-        width: 20rem;
-        height: 25rem;
-        margin-top: -10rem;
+        border: 4pt solid rgba(101, 74, 43, 1);
+        width: 22.8rem;
+        height: 10rem;
+        margin-top: -135.5rem;
     }
 }
