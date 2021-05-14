@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Cormorant Regular";
-    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+    src: url("../assets/Cormorant-Regular.woff2") format("woff2"); 
 }
 
 @font-face {
     font-family: "Cormorant Bold";
-    src: url("./assets/Cormorant-Bold.woff2") format("woff2"); 
+    src: url("../assets/Cormorant-Bold.woff2") format("woff2"); 
 }
 
 body {

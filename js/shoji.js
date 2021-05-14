@@ -1,3 +1,5 @@
+// console.log("Hello")
+
 $(document).mousemove(function(e){
 
 	x = e.pageX;

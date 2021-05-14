@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Cormorant Regular";
-    src: url("./assets/Cormorant-Regular.woff2") format("woff2"); 
+    src: url("../assets/Cormorant-Regular.woff2") format("woff2"); 
 }
 
 @font-face {
     font-family: "Cormorant Medium";
-    src: url("./assets/Cormorant-Medium.woff2") format("woff2"); 
+    src: url("../assets/Cormorant-Medium.woff2") format("woff2"); 
 }
 
 @font-face {
     font-family: "Cormorant Bold Italic";
-    src: url("./assets/Cormorant-BoldItalic.woff2") format("woff2"); 
+    src: url("../assets/Cormorant-BoldItalic.woff2") format("woff2"); 
 }
 
 body {
